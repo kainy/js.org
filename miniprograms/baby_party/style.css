@@ -1,0 +1,64 @@
+/*所有元素不可长按选中*/
+* {
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+/*输入框可长按选中*/
+input,
+textarea,
+*[contenteditable] {
+  -webkit-touch-callout:initial;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+body {
+  line-height: 1.6;
+  font-family: -apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
+  color: #353535;
+  font-size: 14px;
+  padding-bottom: 80px;
+}
+header {
+  text-align: center;
+  padding: 15px 0;
+}
+p{
+  padding: 0 10px;
+}
+textarea:disabled, input:disabled {
+  background-color: transparent;
+  color: #333!important;
+  opacity: 1;
+  -webkit-opacity: 1;
+  -webkit-text-fill-color: #333;
+}
+.submit-btn {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.birthday-picker {
+  padding: 0 8px;
+}
+.mint-cell-text,
+.birthday-picker span {
+  font-size: 12px;
+  margin: 8px;
+  display: inline-block;
+  color: #888;
+  padding: 20px 0;
+}
+.mint-radiolist-title {
+  padding-left: 8px;
+}
+.birthday-picker .date {
+  font-size: 1.2em;
+  color: #333;
+}
