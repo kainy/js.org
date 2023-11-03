@@ -1,0 +1,40 @@
+﻿/*---主体样式---*/
+#container{width:980px;margin:0px auto;padding-top:5px;text-align:center;}
+
+/*---内容样式-FatMouse.cn Layout---*/
+#container #Tbody{width:970px;margin:31px 0px 0px 10px;}
+
+/*---主内容--*/
+#mainContent{width:660px;overflow:hidden;margin:0px auto;padding-top:130px;text-align:center;}
+#innermainContent{overflow:visible;}
+.content-width{width:660px;margin:0px auto;}
+/*--主内容元素的全局宽度--*/
+
+/*---内容框--*/
+.Content{margin:0 auto;font-family:Verdana,"微软雅黑", Arial, 宋体;}
+.Content-body:first-letter{}
+
+/*---日志标题框--*/
+.Content-top{padding:6px 2px 2px 5px;color:#50514D;text-align:left;}
+.Content-top .ContentLeft{width:0px;float:left;}
+.Content-top .ContentRight{width:0px;float:right;}
+.Content-top .ContentTitle{font-size:14px;color:#796BDA;padding-bottom:4px;margin:0px;}
+
+/*---日志内容框--*/
+.Content-body{margin:8px auto;overflow:hidden;text-align:left;width:98%;line-height:180%;}
+
+body{font-size:12px!important;font-size:12px;margin:0px;padding:0px;text-align:center;color:#464646;font-family:Verdana, Arial, Helvetica, sans-serif,微软雅黑,宋体;background-color:#FAF7EF;}
+a:link,a:visited{text-decoration:none;color: #88866F;}
+a:hover{color:#7C71DD;text-decoration:none;}
+
+.inputBox:hover,.inputBox:focus{border-color:#A3BEC3;}
+.userbutton{border: 1px solid #A3BEC3;border-top: 1px solid #FAF7EF;border-left: 4px solid #FAF7EF;border-right: 4px solid #FAF7EF;font-size:12px;padding:4px 0px 0px 4px;background:#FAF7EF;}
+
+#controls{float: right;text-align: right;}
+.error{color: #AA3333;}
+#message{margin: 0 0 1em 0;float: right;}
+#input,#output{width:640px;border: #C0C0C0 1px solid;}
+.userbutton{height: 19px;line-height: 19px;padding: 0;margin-right: 3px;}
+.hidden,#upload-script,#load-script,#save-script{display:none;}
+
+textarea{width:640px;border: #C0C0C0 1px solid;}
